@@ -1,0 +1,21 @@
+{
+  "inclass": true,
+  "greet": "Hello World",
+  "score":1,
+  "test":{
+
+      "data":"1",
+      "imgUrl":"imgsrc"
+  },
+
+  "data":[
+      {
+        "data":"1",
+        "imgUrl":"imgsrc"
+      },
+      {
+        "data":"2",
+        "imgUrl":"imgsrc2"
+      }
+  ]
+}
