@@ -18,6 +18,9 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+
+
         json = getString(R.string.jsonString);
         parseJsonAndPrint(json);
 
@@ -62,7 +65,8 @@ public class MainActivity extends AppCompatActivity {
     private void parseJsonAndPrint(String json) {
 
         try {
-                       JSONObject jsonOjMain = new JSONObject(json);
+
+           JSONObject jsonOjMain = new JSONObject(json);
 
             String greet = jsonOjMain.getString("greet");
             boolean inClass = jsonOjMain.getBoolean("inclass");
