@@ -3,7 +3,6 @@
   "greet": "Hello World",
   "score":1,
   "test":{
-
       "data":"1",
       "imgUrl":"imgsrc"
   },
